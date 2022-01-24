@@ -1,0 +1,3 @@
+[submodule "/home/user/Documents/GitHub/musicbrainz/itunes"]
+	path = /home/user/Documents/GitHub/musicbrainz/itunes
+	url = https://github.com/thwaller/itunes-artwork-finder.git
