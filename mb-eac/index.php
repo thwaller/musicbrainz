@@ -10,15 +10,16 @@
 <script src="plugin.js"></script>
 <script src="mbscript.js"></script>
 </head>
-
 <body>
     <div id="main">
         <h1>Look up Disc ID and FreeDB ID<br />from EAC/XLD log</h1>
-        <p><img src="curved-arrow-left.svg" type="image/svg+xml" alt="">
+        <p>
+        	<img src="curved-arrow-left.svg" type="image/svg+xml" alt="below">
             Paste EAC/XLD CD TOC here
-           <img src="curved-arrow-right.svg" type="image/svg+xml" alt=""></p>
+        	<img src="curved-arrow-right.svg" type="image/svg+xml" alt="below">
+        </p>
         <textarea id="loginput"></textarea>
-        <div id="info" style="display: none;">
+        <div id="info" style="display:none;">
             <div id="stats"></div>
                 <ul id="lookup">
                     <li><a href="#" target="_blank" id="musicbrainz_link">MusicBrainz disc ID</a></li>

@@ -1,0 +1,38 @@
+
+.grid-container {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 15px;
+    width: 50%;
+    margin: auto;
+    border-radius: 20px;
+
+}
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 30px;
+    border-radius: 15px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+    text-align: center;
+}
+

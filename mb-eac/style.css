@@ -18,3 +18,16 @@ body {
 #stats {
     margin-top: 16px;
 }
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+img {
+    width: 50px;
+    height: 25px;
+}
+
+
+

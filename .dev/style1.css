@@ -1,0 +1,40 @@
+.row {
+    display: flex;
+    /* width: 100%; */
+    width: 80%;
+}
+
+.center {
+    margin: auto;
+    width: 80%;
+    /*border: 2px solid gray;*/
+    /*padding: 2px;*/
+}
+
+.row div {
+    width: 50%;
+}
+
+.col {
+    /*border: 2px solid gray;*/
+}
+
+.noMargin {
+    margin: 0px;
+}
+
+.one {
+    background-color: #f5e4d6;
+}
+
+.two {
+    background-color: #f5e4d6;
+}
+
+.three {
+    background-color: #f5e4d6;
+}
+
+.four {
+    background-color: #f5e4d6;
+}
