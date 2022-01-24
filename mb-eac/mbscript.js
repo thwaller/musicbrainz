@@ -6,6 +6,7 @@
  * Copyright 2018, Konstantin Mochalov
  * Released under the MIT License
  */
+
     var SECTORS_PER_SECOND = 75
     var PREGAP = 150
     var DATA_TRACK_GAP = 11400

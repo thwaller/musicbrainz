@@ -6,6 +6,7 @@
  * Copyright 2010, ZURB
  * Released under the MIT License
  */
+ 
     (function ($) {
         $.event.special.textchange = {
             setup: function (data, namespaces) {
