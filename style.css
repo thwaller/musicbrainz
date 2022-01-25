@@ -8,7 +8,7 @@ body {
 
 h1 {
 	width: 50%;
-	margin: 25px auto 0 auto;
+	margin: 35px auto 40px auto;
 }
 
 h2 {
@@ -40,6 +40,14 @@ h2 {
     padding: 10px;
     font-size: 22px;
     border-radius: 15px;
+}
+
+#link {
+    width: 35%;
+}
+
+#links {
+    font-size: 16px;
 }
 
 .footer {
