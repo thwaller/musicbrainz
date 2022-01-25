@@ -3,22 +3,28 @@
 body {
     font-family: sans-serif;
     background: #ddd;
-    margin: 0;
+    /*margin: 0;*/
 }
-#main {
-    width: 600px;
+#primary {
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     background: #fff;
     padding: 20px;
 }
 #loginput {
-    width: 100%;
+    width: 50%;
     height: 300px;
     border: 1px solid #888;
 }
 #stats {
     margin-top: 16px;
+}
+.info {
+    width: 50%;
+    margin: auto;
+    align-content: center;
+    justify-content: center;
 }
 h1 {
     text-align: center;

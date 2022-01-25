@@ -1,5 +1,6 @@
 //<![CDATA[
 /*!
+ * Original Release:
  * Lookup musicbrainz and freedb by EAC log
  * https://gist.github.com/kolen/766668
  *

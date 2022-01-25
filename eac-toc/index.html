@@ -6,12 +6,13 @@
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="../style.css" type="text/css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
     <script src="plugin.js"></script>
     <script src="mbscript.js"></script>
 </head>
 <body>
-    <div id="main">
+    <!--<div id="primary">-->
         <h1>Look up Disc ID and FreeDB ID<br />from EAC/XLD log</h1>
         <p>
         	<img src="curved-arrow-left.svg" type="image/svg+xml" alt="below">
@@ -21,7 +22,7 @@
         <textarea id="loginput"></textarea>
         <div id="info" style="display:none;">
             <div id="stats"></div>
-                <ul id="lookup">
+                <ul class="info" id="lookup">
                     <li><a href="#" target="_blank" id="musicbrainz_link">MusicBrainz disc ID</a></li>
                     <li><a href="#" target="_blank" id="freedb_link">FreeDB</a></li>
                     <li><a href="#" target="_blank" id="mb_freedb_link">FreeDB IDs at MusicBrainz</a></li>
@@ -30,6 +31,6 @@
                 </ul>
             </div>
         </div>
-    </div>
+    <!--</div>-->
 </body>
 </html>
