@@ -7,24 +7,23 @@ body {
 }
 
 h1 {
-	width: 50%;
-	margin: 35px auto 40px auto;
+    width: 40%;
+    margin: 35px auto 40px auto;
 }
 
 h2 {
-	width: 50%;
-	margin: 15px auto 15px auto;
-	border-radius: 10px;
-	background-color: #2196F3;
-	padding: 10px;
-	color: #28283e;
-	font-size: 18px;
+    width: 40%;
+    margin: 15px auto 15px auto;
+    border-radius: 10px;
+    background-color: #2196F3;
+    padding: 15px;
+    color: #28283e;
+    font-size: 18px;
 }
 
 a.b:link, a.b:visited {
-    background-color: white;
+    background-color: transparent);
     color: black;
-    /*border: 2px solid green;*/
     padding: 6px 12px;
     text-align: center;
     text-decoration: none;
@@ -47,7 +46,7 @@ a.b:hover, a.b:active {
     grid-gap: 10px;
     background-color: #2196F3;
     padding: 15px;
-    width: 50%;
+    width: 40%;
     margin: auto;
     border-radius: 20px;
     color: #28283e;
