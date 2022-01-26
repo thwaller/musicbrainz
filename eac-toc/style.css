@@ -5,13 +5,6 @@ body {
     background: #ddd;
     /*margin: 0;*/
 }
-#primary {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    background: #fff;
-    padding: 20px;
-}
 #loginput {
     width: 50%;
     height: 300px;
@@ -20,6 +13,11 @@ body {
 #stats {
     margin-top: 16px;
 }
+.arrow {
+    filter: invert(.5) sepia(1) saturate(5) hue-rotate(175deg);
+    width: 50px;
+    height: 25px;
+{
 .info {
     width: 50%;
     margin: auto;
@@ -31,10 +29,6 @@ h1 {
 }
 p {
     text-align: center;
-}
-img {
-    width: 50px;
-    height: 25px;
 }
 
 /*]]>*/

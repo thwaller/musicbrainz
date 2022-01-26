@@ -2,7 +2,8 @@
 """
 Reads EAC log, generates musicbrainz disc TOC listing for use as discid.
 Opens browser with discid query on musicbrainz.org.
-Warning: may work wrong for discs having data tracks. May generate wrong results on other non-standard cases.
+Warning: may work wrong for discs having data tracks. May generate wrong
+results on other non-standard cases.
  *
  * Original Release:
  * https://gist.github.com/kolen/765526
@@ -25,7 +26,7 @@ def filter_toc_entries(lines):
         line = lines.next()
         # to allow internationalized EAC output where column headings
         # may differ
-        if re.match(r""" \s* 
+        if re.match(r""" \s*
                    .+\s+ \| (?#track)
                 \s+.+\s+ \| (?#start)
                 \s+.+\s+ \| (?#length)
@@ -60,15 +61,15 @@ def calculate_mb_toc_numbers(eac_entries):
     """
     eac = list(eac_entries)
     num_tracks = len(eac)
-    
+
     tracknums = [int(e['num']) for e in eac]
     if range(1,num_tracks+1) != tracknums:
         raise NotSupportedTOCError("Non-standard track number sequence: %s", tracknums)
-    
+
     leadout_offset = int(eac[-1]['end_sector']) + 150 + 1
     offsets = [(int(x['start_sector']) + 150) for x in eac]
     return [1, num_tracks, leadout_offset] + offsets
-    
+
 f = open(sys.argv[1])
 #conv = (line.decode(sys.argv[2]) for line in f)
 mb_toc_urlpart = "%20".join(str(x) for x in calculate_mb_toc_numbers(filter_toc_entries(f)))
