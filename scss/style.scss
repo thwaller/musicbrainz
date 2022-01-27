@@ -1,12 +1,15 @@
 /*<![CDATA[*/
+
 body {
   background-color: #28283e;
   color: lightgrey;
-  text-align: center; }
+  text-align: center;
+}
 
 h1 {
   width: 40%;
-  margin: 35px auto 40px auto; }
+  margin: 35px auto 40px auto;
+}
 
 h2 {
   width: 40%;
@@ -15,21 +18,27 @@ h2 {
   background-color: #2196F3;
   padding: 15px;
   color: #28283e;
-  font-size: 18px; }
+  font-size: 18px;
+}
 
-a.b:link, a.b:visited {
-  background-color: transparent;
-  color: black;
-  padding: 6px 12px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 20px; }
-a.b:hover, a.b:active {
-  text-decoration: none;
-  border-radius: 10px;
-  background-color: green;
-  color: white; }
+a.b {
+  &:link, &:visited {
+    background-color: transparent;
+    color: black;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+  }
+
+  &:hover, &:active {
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+  }
+}
 
 .grid-container {
   display: grid;
@@ -42,25 +51,29 @@ a.b:hover, a.b:active {
   width: 40%;
   margin: auto;
   border-radius: 20px;
-  color: #28283e; }
-  .grid-container > div {
+  color: #28283e;
+
+  > div {
     background-color: rgba(255, 255, 255, 0.7);
     padding: 10px;
     font-size: 22px;
-    border-radius: 15px; }
+    border-radius: 15px;
+  }
+}
 
 #link {
-  width: 35%; }
+  width: 35%;
+}
 
 #links {
-  font-size: 16px; }
+  font-size: 16px;
+}
 
 .footer {
   padding: 20px;
   width: 40%;
   margin: 10px auto 0 auto;
-  font-size: 16px; }
+  font-size: 16px;
+}
 
 /*]]>*/
-
-/*# sourceMappingURL=style.css.map */
