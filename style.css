@@ -22,7 +22,7 @@ h2 {
 }
 
 a.b:link, a.b:visited {
-    background-color: transparent);
+    background-color: transparent;
     color: black;
     padding: 6px 12px;
     text-align: center;
