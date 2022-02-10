@@ -1,6 +1,6 @@
 # Tools to assist Musicbrainz users.
 
-This set of tools is a a work in progress.
+This set of tools is a a work in progress. Initial version 1.0 is released and as far as I can see, is fully functional relative to what is on the site. Suggestions for new features, improvements or other changes are welcome.
 
 ## Hosted on GitHub Pages - https://thwaller.com/musicbrainz/
 
