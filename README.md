@@ -8,3 +8,8 @@ Notes:
 
 1. GitHub Pages does not support `.htaccess` files.
 2. The use of PHP in the iTunes Artwork Finder requires a third party PHP host as GitHub Pages does not support PHP.
+
+## Credits
+
+- The iTunes Artwork Finder utilizes code from Ben Dodson's [iTunes Artwork Finder](https://github.com/bendodson/itunes-artwork-finder).
+- The EAC/XLD TOC Submitter utilizes code from Konstantin Mochalov's [lookup_eac_log](https://gist.github.com/kolen/766668).
